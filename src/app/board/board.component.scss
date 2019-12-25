@@ -1,0 +1,20 @@
+main {
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    grid-gap: 0px;
+}
+
+app-square {
+    border:  1px gray solid;
+    height: 200px;
+}
+
+.danger-style {
+    margin-bottom: 20px;
+    background: linear-gradient(45deg, black, transparent);
+    color: white;
+    border: 1px red solid;
+    border-radius: 5px;
+    width: 250px;
+    height: 35px;
+}
